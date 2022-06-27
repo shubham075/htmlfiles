@@ -1,0 +1,169 @@
+body{
+    margin: 0%;
+    width: 1920px;
+    height: 1080px;
+    background-color: #F3F4F9;
+}
+
+.containerOne{
+    position: relative;
+    background-image: linear-gradient(180deg, #211F1F, #3B3939);
+    width: 1960px;
+    height: 160px;
+}
+
+.imageOne{
+    position:absolute;
+    display: inline-block;
+    padding: 44px 824px 44px 824px;
+
+}
+
+.hr{
+    height: 20px;
+    width: 1960px;
+    background-color: #FE077C;
+    display: block;
+}
+
+.loginbox{
+    padding-top: 26px;
+    background-color: #F3F4F9;
+    position: relative;
+    opacity: 1;
+    top: 206px;
+    left: 599px;
+    width: 723px;
+    height: 735px;
+}
+
+.loginForm{
+    position:absolute;
+    box-shadow: 0px 2px 14px #0000001A;
+    border-radius: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    top: 80px;
+    left:80px;
+    width: 563px;
+    height: 575px;
+
+}
+
+.innerFormBox{
+    top: 366px;
+    left: 759px;
+    width: 403px;
+    height: 415px;
+    display: block;
+    margin: 24px auto 32px auto;
+
+}
+
+.login{
+    margin-top: 0px;
+    /* width: 90px; */
+    height: 48px;
+    font-size: 36px;
+    display: block;
+    font: normal normal bold 36px/48px Roboto;
+    letter-spacing: 0px;
+    color: #29292B;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.textOne{
+    width: 403px;
+    height: 31px;
+    margin-top: 16px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #2A2F4D;
+    
+    
+}
+
+input[type=email]{
+    width: 402px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #7D86A9;
+    border-radius: 25px;
+    opacity: 1;
+
+}
+
+input[type=password]{
+    margin-top: 32px;
+    width: 402px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #7D86A9;
+    border-radius: 25px;
+    opacity: 1;
+
+}
+
+input[type=submit]{
+    margin-top: 48px;
+    width: 402px;
+    height: 56px;
+    background: #FE077C 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+}
+
+
+.forget-password{
+    margin-left: 3px;
+    font-size: 15px;
+    margin-top: 40px;
+    width: 121px;
+    height: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7D86A9;
+    opacity: 1;
+    display: inline-block;
+   
+}
+
+.checkbox{
+    font-size: 14px;
+    display: inline-block;
+    top: 658px;
+    margin-left: 150px;
+    height: 19px;
+    margin-top: 40px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7D86A9;
+    opacity: 1;
+}
+
+
+button{
+    /* top: 725px;
+    left: 760px; */
+    width: 402px;
+    height: 56px;
+    margin-top: 40px;
+    background: #FE077C 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+}
+.submitTxt{
+    width: 48px;
+    height: 23px;
+    text-align: center;
+    font: normal normal bold 17px/23px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 17px;
+}
