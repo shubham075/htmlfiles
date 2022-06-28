@@ -3,40 +3,41 @@
     <head>
         <title>UEPViewer</title>
         <link rel="stylesheet" href="main.css">
-        <meta charset="utf-8" name="viewport" 
-        content= "width=device-width, initial-scale=1.0">
+        <!-- <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0"> -->
     </head>
     <body>
+<div class="parent">
     <div class="containerOne">
         <div class="imageOne">
             <img src="UEP copy/UEP copy.png" height="72px" width="271px" alt="UEPViewer">
         </div>
     </div>
     <div class="hr"></div>
+<!-- header closed -->
 
-    <div class="loginbox">
-        <div class="loginForm">
-            <div class="innerFormBox">
-                <p class="login">Login</p>
-                <p class="textOne">Please enter your email id and password</p>
-                    <form>
-                        <input type="email" id="email" name="email" placeholder="Email">
+    <div class="loginbox"></div>
+        <div class="loginForm"></div>
+            <div class="innerFormBox"></div>
+
+<p class="login">Login</p>
+<p class="textOne">Please enter your email id and password</p>
+<form>
+<input type="email" id="email" name="email" placeholder="Email">
+                            
+<input type="password" id="password" name="password" placeholder="Password">
+</form> 
                         
-                        <input type="password" id="password" name="password" placeholder="Password">
-                    </form> 
-                    
-                    <p class="forget-password">Forgot Password?</p>
-                    <div class="checkbox">
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me?
-                      </label>
-                    </div>
+<p class="forget-password">Forgot Password?</p>
+<div class="checkbox">
+<label>
+<input type="checkbox" id="check-one" checked="checked" name="remember"><span id="rememberMe"> Remember me?</span>
+</label>
+</div>
 
-                    <button type="submit"><span class="submitTxt">Login</span></button>
+<button type="submit" id="login-button"><span class="button-font">Login</span></button>
 
-            </div>
-        </div>
-
-    </div>
+            
+        
+</div>   
     </body>
 </html>

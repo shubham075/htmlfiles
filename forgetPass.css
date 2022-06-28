@@ -1,0 +1,109 @@
+
+.container{
+    position: absolute;
+    display: block;
+    margin-top: 26px;
+    top: 206px;
+    left: 599px;
+    width: 723px;
+    height: 593px;
+    opacity: 1;
+}
+
+.form-container{
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 286px;
+    left: 679px;
+    width: 563px;
+    height: 433px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #0000001A;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.form-area{
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 366px;
+    left: 759px;
+    width: 403px;
+    height: 273px;
+    opacity: 1;
+    
+}
+
+.forgotPassword{
+    position: absolute;
+    display: block;
+    margin-top: 0px;
+    top: 366px;
+    left: 824px;
+    /* width: 274px; */
+    height: 48px;
+    text-align: center;
+    font: normal normal bold 36px/48px Roboto;
+    letter-spacing: 0px;
+    color: #29292B;
+    opacity: 1;
+}
+
+.input-txt{
+    position: absolute;
+    display: block;
+    margin-top: 16px;
+    top: 430px;
+    left: 759px;
+    width: 403px;
+    height: 31px;
+    text-align: center;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #2A2F4D;
+    opacity: 1;
+}
+#email-forget{
+    position: absolute;
+    display: block;
+    margin-top: 24px;
+    top: 485px;
+    left: 759px;
+    width: 402px;
+    height: 50px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #7D86A9;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.submit-forget{
+    position: absolute;
+    display: block;
+    margin-top: 48px;
+    top: 583px;
+    left: 759px;
+    width: 402px;
+    height: 56px;
+    background: #FE077C 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+}
+
+.submitTxt, #forget-submitTxt{
+    margin: auto;
+    top: 600px;
+    left: 939px;
+    width: 42px;
+    height: 23px;
+    text-align: center;
+    font: normal normal bold 17px/23px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}

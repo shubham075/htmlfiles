@@ -1,0 +1,112 @@
+.headingOne{
+    position:absolute;
+    display: block;
+    top: 366px;
+    left: 820px;
+    width: 290px;
+    height: 48px;
+    font-size: 36px;
+    text-align: center;
+    font: normal normal bold 36px/48px Roboto;
+    letter-spacing: 0px;
+    color: #29292B;
+    opacity: 1;
+}
+
+.headingTwo{
+    position: absolute;
+    display: block;
+    top: 448px;
+    left: 759px;
+    width: 402px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+span{
+    color: #FE077C;
+    font-size: 18px;
+}
+
+.OTPsubmit{
+    width: 48px;
+    height: 23px;
+    text-align: center;
+    font: normal normal bold 17px/23px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 17px;
+}
+
+
+button, #OTP-button-one{
+    position: absolute;
+    display: block;
+    top: 593px;
+    left: 759px;
+    width: 402px;
+    height: 56px;
+    background: #FE077C 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+}
+
+.Go-Back{
+    position: absolute;
+    display: inline-block;
+    top: 667px;
+    left: 801px;
+    width: 52px;
+    height: 19px;
+    text-align: center;
+    font-size: 14px;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FE077C;
+    opacity: 1;
+}
+
+.Resend-OTP{
+    position: absolute;
+    display: inline-block;
+    top: 667px;
+    left: 1044px;
+    width: 76px;
+    height: 19px;
+    text-align: right;
+    font-size: 14px;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FE077C;
+    opacity: 1;
+}
+
+.OTP-container{
+    position: absolute;
+    display: block;
+    margin-top: 26px;
+    top: 206px;
+    left: 599px;
+    width: 722px;
+    height: 640px;
+    opacity: 1;
+}
+.OTP-form-container{
+    position: absolute;
+    display: block;
+    top: 286px;
+    left: 679px;
+    width: 562px;
+    height: 480px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #0000001A;
+    border-radius: 20px;
+    opacity: 1;
+}
+
